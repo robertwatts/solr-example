@@ -1,9 +1,10 @@
 Bvipr Solr implementation
+=========================
 
 To run:
-  mvn jetty:run
+  `mvn jetty:run`
 
 To clean:
-  mvn clean 
+  `mvn clean`
 
 Make sure to configure a index directory in profiles/dev/config.properties
