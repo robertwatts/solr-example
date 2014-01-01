@@ -1,14 +1,9 @@
-This is an example application of my blog post:
+Bvipr Solr implementation
 
-Running Solr with Maven - http://www.petrikainulainen.net/programming/maven/running-solr-with-maven/
+To run:
+  mvn jetty:run
 
-CONFIGURATION:
+To clean:
+  mvn clean 
 
-- Open profiles/dev/config.properties
-- Set the value of solr.home.directory property
-- Update the Solr schema if necessary (this one haa a custom schema)
-
-RUN:
-
-- Run either mvn jetty:run or mvn:jetty:run-war
-- Open browser and go to url: http://localhost:8983/solr/
+Make sure to configure a index directory in profiles/dev/config.properties
